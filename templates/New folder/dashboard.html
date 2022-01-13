@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> </title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--JS-->
+        <script src=""></script>
+    </head>
+
+    <body>
+        <h1>DASHBOARD</h1>
+        <ul>
+            <li>
+                <a href="{{url_for('trainers.index')}}">Trainers Data</a>
+            </li>
+
+            <li>
+                <a href="{{url_for('packages.index')}}">Package Data</a>
+            </li>
+
+            <li>
+                <a href="{{url_for('members.index')}}">Member Data</a>
+            </li>
+
+            <li>
+                <a href="{{url_for('equipments.index')}}">Equipment Data</a>
+            </li>
+
+            <li>
+                <a href="{{url_for('exercises.index')}}">Exercise Data</a>
+            </li>
+        </ul>
+
+    </body>
+</html>
